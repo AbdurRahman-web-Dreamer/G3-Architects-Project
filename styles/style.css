@@ -153,9 +153,10 @@ main{
     header{
         padding: 20px;
     }
-    nav ,.team-container{
+    nav ,.team-container ,.fact-container{
         flex-direction: column;
         gap: 20px;
+      
     }
   
     .banner-title{
@@ -173,7 +174,7 @@ main{
              grid-template-columns: 1fr;
              
        }
-       .teams-content{
+       .teams-content,.fact-container,.fact-heading{
         padding-left: 20px;
         padding-right: 20px;
        }
@@ -183,7 +184,7 @@ main{
     header{
         padding: 50px;
     }
-    nav,  .team-container {
+    nav,  .team-container ,.fact-container{
         flex-direction: column;
         gap: 20px;
     }
@@ -198,10 +199,15 @@ main{
        margin: 0 30px;
      
    }
-   .teams-content{
+   .teams-content,.fact-heading{
     padding-left: 30px;
-    padding-right: 0px;
+    padding-right: 30px;
    }
+  
+   .fact-container{
+    padding: 0 140px;
+   }
+     
    .btn-primary{
     padding: 10px 12px;
    }
