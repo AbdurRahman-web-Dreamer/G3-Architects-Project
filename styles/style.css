@@ -119,6 +119,7 @@ main{
 }
 /* team section end  */
 /* features section start  */
+
 .fact-container{
     display: flex;
     justify-content: space-around;
@@ -145,7 +146,27 @@ main{
     font-weight: 600;
 }
 /* features section end */
+/* fact section start  */
+.sponsor-heading{
+    text-align: center;
+    margin-top: 60px;
+}
 
+.sponsor-description{
+    margin: 20px auto;
+  
+}
+.sponsor-img-container{
+    display: flex;
+   justify-content: space-evenly;
+    margin-top: 80px;
+    align-items: center;
+    gap: 40px;
+}
+.sponsor-img-container img{ 
+   width: 165px;
+}
+/* fact section end */
 /* main style  end*/
 /* responsive styles */
 /* mobile device  */
@@ -158,7 +179,9 @@ main{
         gap: 20px;
       
     }
-  
+    .sponsor-img-container{
+        flex-direction: column;
+    }
     .banner-title{
         font-size: 2.6rem;
        
@@ -188,7 +211,9 @@ main{
         flex-direction: column;
         gap: 20px;
     }
-  
+    .sponsor-img-container{
+        flex-direction: column;
+    }
     .banner-title{
         font-size: 3.3rem;
     }
